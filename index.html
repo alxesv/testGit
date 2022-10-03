@@ -73,6 +73,42 @@
             </tbody>
         
         </table>
+
+        <h4>formulaire</h4>
+        <form action="inscription.php" method="post">
+            <div>
+                <label for="civ">Monsieur</label>
+                <input type="radio" name="civ" id="mr">
+                <label for="civ">Madame</label>
+                <input type="radio" name="civ" id="mme">
+            </div>
+            <div>
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" name="prenom" id="prenom">
+            </div>
+            <div>
+            <label for="nom">Nom :</label><br>
+            <input type="text" name="nom" id="nom">
+            </div>
+            <div>
+            <label for="mail">Email :</label><br>
+            <input type="email" name="email" id="mail">
+            </div>
+            <div>
+            <label for="tel">Num. Tél. :</label><br>
+            <input type="tel" name="number" id="tel">
+            </div>
+            <div>
+                <label for="raceChat">Race de chat :</label><br>
+                <select name="raceChat" id="raceChat">
+                    <option value="chartreux">Chartreux</option>
+                    <option value="siamois">Siamois</option>
+                    <option value="sphynx">Sphynx</option>
+                    <option value="angora">Angora</option>
+                </select>
+            </div>
+            <input type="submit" name="submit" id="surmit" value="Envoyer">
+        </form>
     </section>
     
     <footer>
